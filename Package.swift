@@ -13,7 +13,6 @@ let package = Package(
     targets: [
         .target(
             name: "geos",
-            publicHeadersPath: "include",
             cxxSettings: [
                 .define("USE_UNSTABLE_GEOS_CPP_API"),
                 .define("NDEBUG"),
